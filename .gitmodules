@@ -1,6 +1,6 @@
 [submodule "gem5"]
 	path = gem5
-	url = https://github.com/gem5/gem5
+	url = git@github.com:gem5/gem5.git
 	branch = release-staging-v23-0
 [submodule "benchmarks"]
 	path = benchmarks
