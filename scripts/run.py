@@ -108,7 +108,7 @@ def run_microbench(inputs):
         memory,
         cache_hierarchy,
     )
-    binary = BinaryResource(local_path="/root/lin/workspace/novoverse/gem5/tests/test-progs/hello/src/test")
+    binary = BinaryResource(local_path="/home/linrongzhen/workspace/novoverse/gem5/tests/test-progs/hello/src/hello")
     system.set_se_binary_workload(binary)
 
 

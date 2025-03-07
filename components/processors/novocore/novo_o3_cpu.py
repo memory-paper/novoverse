@@ -159,7 +159,7 @@ class O3_ARM_Neoverse_N1_BP(BiModeBP):
     choicePredictorSize = 8192
     choiceCtrBits = 2
     btb = SimpleBTB(numEntries=4096, tagBits=18)
-    RASSize = 16
+    # RASSize = 16
     instShiftAmt = 2
 
 
